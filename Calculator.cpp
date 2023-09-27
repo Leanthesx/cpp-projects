@@ -41,6 +41,8 @@ int main()
 
     default:
         cout << "You made the wrong choice, exiting...";
+        break;
+        
     }
 
 
