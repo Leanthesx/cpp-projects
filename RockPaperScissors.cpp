@@ -1,4 +1,6 @@
 #include "iostream"
+#include "cstdlib"
+#include "ctime"
 
 const char ROCK = 'r';
 const char PAPER = 'p';
@@ -51,7 +53,7 @@ void choose_winner(char user_choice, int computer)
 
 int main(int argc, char* argv[])
 {
-
+    srand(time(NULL));
     int random_number = rand() % 3 + 1;
     char selection;
 
